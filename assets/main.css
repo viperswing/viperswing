@@ -1,0 +1,1721 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500,300,200);
+/* line 17, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+ * Bootstrap v3.0.0
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+/* line 13, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+/* line 14, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+audio, canvas, video {
+  display: inline-block;
+}
+
+/* line 15, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 16, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+[hidden] {
+  display: none;
+}
+
+/* line 17, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 18, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+body {
+  margin: 0;
+}
+
+/* line 19, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 20, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 21, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 22, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 23, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 24, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+dfn {
+  font-style: italic;
+}
+
+/* line 25, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 26, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 27, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 28, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 29, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 30, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+small {
+  font-size: 80%;
+}
+
+/* line 31, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 32, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+sup {
+  top: -0.5em;
+}
+
+/* line 33, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 34, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+img {
+  border: 0;
+}
+
+/* line 35, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 36, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+figure {
+  margin: 0;
+}
+
+/* line 37, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 38, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 39, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 40, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+button, input {
+  line-height: normal;
+}
+
+/* line 41, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+button, select {
+  text-transform: none;
+}
+
+/* line 42, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 43, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+/* line 44, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 45, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 46, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 47, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 48, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 49, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 50, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 51, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 52, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+/* line 53, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 54, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+button, input, select[multiple], textarea {
+  background-image: none;
+}
+
+/* line 55, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+
+/* line 55, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+a:hover, a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+/* line 56, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 57, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+img {
+  vertical-align: middle;
+}
+
+/* line 58, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 59, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.img-rounded {
+  border-radius: 6px;
+}
+
+/* line 60, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 61, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* line 62, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+/* line 63, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+
+/* line 64, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 64, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+/* line 65, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.container:after {
+  clear: both;
+}
+
+/* line 66, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 66, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+/* line 67, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.row:after {
+  clear: both;
+}
+
+/* line 68, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 69, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11 {
+  float: left;
+}
+
+/* line 70, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-1 {
+  width: 8.333333333333332%;
+}
+
+/* line 71, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-2 {
+  width: 16.666666666666664%;
+}
+
+/* line 72, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 73, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-4 {
+  width: 33.33333333333333%;
+}
+
+/* line 74, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-5 {
+  width: 41.66666666666667%;
+}
+
+/* line 75, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 76, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-7 {
+  width: 58.333333333333336%;
+}
+
+/* line 77, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-8 {
+  width: 66.66666666666666%;
+}
+
+/* line 78, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 79, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-10 {
+  width: 83.33333333333334%;
+}
+
+/* line 80, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-11 {
+  width: 91.66666666666666%;
+}
+
+/* line 81, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+.col-xs-12 {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .container {
+    max-width: 950px;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+    float: left;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-3 {
+    width: 25%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-6 {
+    width: 50%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-9 {
+    width: 75%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-12 {
+    width: 100%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-0 {
+    left: auto;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-3 {
+    left: 25%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-6 {
+    left: 50%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-9 {
+    left: 75%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-push-11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-0 {
+    right: auto;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-pull-11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 82, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-md-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .container {
+    max-width: 1170px;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11 {
+    float: left;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-0 {
+    left: auto;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-push-11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-0 {
+    right: auto;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-pull-11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-0 {
+    margin-left: 0;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/bootstrap.css */
+  .col-lg-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+}
+/* fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+/* line 13, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  vertical-align: top;
+}
+
+/* line 21, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8020;
+}
+
+/* line 28, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-skin {
+  position: relative;
+  background: #f9f9f9;
+  color: #444;
+  text-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 38, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-opened {
+  z-index: 8030;
+}
+
+/* line 42, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-opened .fancybox-skin {
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* line 48, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-outer, .fancybox-inner {
+  position: relative;
+}
+
+/* line 52, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-inner {
+  overflow: hidden;
+}
+
+/* line 56, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-type-iframe .fancybox-inner {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 60, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-error {
+  color: #444;
+  font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 15px;
+  white-space: nowrap;
+}
+
+/* line 68, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-image, .fancybox-iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 74, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 79, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+  background-image: url("fancybox_sprite.png");
+}
+
+/* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+#fancybox-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  background-position: 0 -108px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 8060;
+}
+
+/* line 95, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+#fancybox-loading div {
+  width: 44px;
+  height: 44px;
+  background: url("fancybox_loading.gif") center center no-repeat;
+}
+
+/* line 101, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-close {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 8040;
+}
+
+/* line 111, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-nav {
+  position: absolute;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  background: transparent url("blank.gif");
+  /* helps IE */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  z-index: 8040;
+}
+
+/* line 123, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-prev {
+  left: 0;
+}
+
+/* line 127, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-next {
+  right: 0;
+}
+
+/* line 131, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-nav span {
+  position: absolute;
+  top: 50%;
+  width: 36px;
+  height: 34px;
+  margin-top: -18px;
+  cursor: pointer;
+  z-index: 8040;
+  visibility: hidden;
+}
+
+/* line 142, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-prev span {
+  left: 10px;
+  background-position: 0 -36px;
+}
+
+/* line 147, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-next span {
+  right: 10px;
+  background-position: 0 -72px;
+}
+
+/* line 152, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-nav:hover span {
+  visibility: visible;
+}
+
+/* line 156, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-tmp {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+  visibility: hidden;
+  max-width: 99999px;
+  max-height: 99999px;
+  overflow: visible !important;
+}
+
+/* Overlay helper */
+/* line 168, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-lock {
+  overflow: hidden !important;
+  width: auto;
+}
+
+/* line 173, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-lock body {
+  overflow: hidden !important;
+}
+
+/* line 177, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-lock-test {
+  overflow-y: hidden !important;
+}
+
+/* line 181, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  z-index: 8010;
+  background: url("fancybox_overlay.png");
+}
+
+/* line 191, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-overlay-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 197, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-lock .fancybox-overlay {
+  overflow: auto;
+  overflow-y: scroll;
+}
+
+/* Title helper */
+/* line 204, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-title {
+  visibility: hidden;
+  font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: relative;
+  text-shadow: none;
+  z-index: 8050;
+}
+
+/* line 212, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-opened .fancybox-title {
+  visibility: visible;
+}
+
+/* line 216, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-title-float-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-bottom: -35px;
+  z-index: 8050;
+  text-align: center;
+}
+
+/* line 225, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-title-float-wrap .child {
+  display: inline-block;
+  margin-right: -100%;
+  padding: 2px 20px;
+  background: transparent;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-shadow: 0 1px 2px #222;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+/* line 241, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-title-outside-wrap {
+  position: relative;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* line 247, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-title-inside-wrap {
+  padding-top: 10px;
+}
+
+/* line 251, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+.fancybox-title-over-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 10px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/*Retina graphics!*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 266, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url("fancybox_sprite@2x.png");
+    background-size: 44px 152px;
+    /*The size of the normal image, half the size of the hi-res image*/
+  }
+
+  /* line 271, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
+  #fancybox-loading div {
+    background-image: url("fancybox_loading@2x.gif");
+    background-size: 24px 24px;
+    /*The size of the normal image, half the size of the hi-res image*/
+  }
+}
+/*----------------------------------------*/
+/*                COLORS                  */
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*                DEFAULT                 */
+/*----------------------------------------*/
+/* line 22, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+body {
+  font-family: 'Raleway';
+}
+/* line 25, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+body section {
+  width: 100%;
+  margin-bottom: 100px;
+}
+/* line 30, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+body article {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 35, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 0px 0px;
+}
+/* line 39, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+body h1 {
+  margin: 100px 0px;
+  font-size: 5em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 47, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+body p {
+  font-family: 'Noto Sans';
+  font-weight: 400;
+  line-height: 22px;
+}
+/* line 53, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+body section {
+  padding-top: 40px;
+}
+/* line 57, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+body .content-link {
+  color: black;
+  text-decoration: underline;
+}
+
+/*----------------------------------------*/
+/*                HEADER                  */
+/*----------------------------------------*/
+/* line 67, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+header {
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 20px 50px;
+  z-index: 10;
+  border-bottom: 5px solid white;
+}
+/* line 77, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+header #logo {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('data:image/png;base64,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');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 65px;
+  height: 64px;
+  float: left;
+  margin: 0px 0px;
+}
+/* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+header nav {
+  float: right;
+  padding-top: 10px;
+}
+/* line 87, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+header nav a {
+  text-decoration: none;
+}
+/* line 91, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+header nav a:hover, header nav a:focus {
+  text-decoration: none;
+}
+/* line 95, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: white;
+}
+/* line 104, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+header nav .icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 8px;
+}
+/* line 112, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+header nav .facebook {
+  background: url("/assets/images/facebook-icon.png") no-repeat;
+}
+/* line 116, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+header nav .mx3 {
+  margin-left: 5px;
+  background: url("/assets/images/mx3-icon.png") no-repeat;
+}
+
+/*----------------------------------------*/
+/*                 HOME                   */
+/*----------------------------------------*/
+/* line 127, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#home {
+  width: 100%;
+  min-height: 100vh;
+  /*height: 1000px;*/
+  background-color: black;
+  position: relative;
+  padding-top: 0px;
+  position: relative;
+  z-index: 20;
+}
+/* line 138, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#home article #background-image {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: url("/assets/images/background-home.jpg") no-repeat bottom fixed;
+}
+/* line 147, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#home article .logo-home {
+  z-index: 1;
+  width: 700px;
+  height: 130px;
+  position: absolute;
+  bottom: 220px;
+  left: 50%;
+  margin-left: -330px;
+  background: url("/assets/images/viperswing-logo.png") no-repeat;
+}
+
+/*----------------------------------------*/
+/*                GROUPE                  */
+/*----------------------------------------*/
+/* line 164, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+.viperswing-title {
+  margin-bottom: 20px;
+}
+
+/* line 169, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+.viperswing-title + p {
+  margin: 0 auto;
+  width: 700px;
+  margin-bottom: 80px;
+}
+
+/* line 176, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article {
+  height: auto;
+}
+/* line 180, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content {
+  height: auto;
+  margin-bottom: 60px;
+  position: relative;
+}
+/* line 185, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content .btn {
+  min-width: 95px;
+  position: absolute;
+  top: 30px;
+  right: 22px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 5px 5px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
+}
+/* line 197, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content .btn-discography {
+  display: block;
+}
+/* line 201, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content .btn-biography {
+  display: none;
+}
+/* line 205, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content h3 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-top: 15px;
+}
+/* line 211, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content h5 {
+  font-size: 2em;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+/* line 218, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content p {
+  margin-bottom: 10px;
+}
+/* line 222, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content .container {
+  max-height: 502px;
+  padding-left: 0px;
+}
+/* line 226, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content .container .bio {
+  display: block;
+}
+/* line 230, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .content .container .disco {
+  display: none;
+}
+/* line 236, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .marco {
+  min-height: 703px;
+}
+/* line 240, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .eric {
+  height: 300px;
+}
+/* line 244, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#groupe article .viperswing .alain {
+  min-height: 567px;
+}
+
+/*----------------------------------------*/
+/*                DATES                   */
+/*----------------------------------------*/
+/* line 255, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#dates {
+  background-color: black;
+  position: relative;
+  height: auto;
+  padding-bottom: 200px;
+}
+/* line 262, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#dates article h1 {
+  color: white;
+}
+/* line 266, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#dates article .date {
+  width: 100%;
+  height: auto;
+  padding: 20px 30px;
+  background-color: white;
+  *zoom: 1;
+  position: relative;
+  margin-bottom: 30px;
+  z-index: 5;
+}
+/* line 38, /Users/ludovicturmel/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+section#dates article .date:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 276, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#dates article .date h2 {
+  font-size: 35px;
+  float: left;
+}
+/* line 281, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#dates article .date h2.place {
+  float: right;
+}
+/* line 284, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#dates article .date h2.place a {
+  color: black;
+  text-decoration: underline;
+}
+/* line 290, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#dates article .date p {
+  width: 600px;
+  margin-top: 60px;
+}
+/* line 296, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#dates article .instru {
+  width: 541px;
+  height: 600px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: url("/assets/images/instru-grey.png") no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+
+/*----------------------------------------*/
+/*                 MEDIA                  */
+/*----------------------------------------*/
+/* line 312, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media {
+  height: auto;
+  padding-bottom: 200px;
+}
+/* line 317, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media article nav {
+  width: 960px;
+  margin-bottom: 40px;
+}
+/* line 321, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media article nav ul li {
+  display: inline;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+/* line 327, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media article nav a {
+  color: black;
+  padding: 2px 5px;
+}
+/* line 332, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media article nav a:hover {
+  text-decoration: none;
+  color: black;
+}
+/* line 337, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media article nav .active a {
+  color: white;
+  background-color: black;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
+}
+/* line 344, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media article #gallery {
+  display: none;
+}
+/* line 347, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media article #gallery .gallery {
+  display: inline-block;
+  width: 235px;
+  height: 235px;
+}
+/* line 352, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media article #gallery .gallery .thumbnail {
+  width: 240px;
+  height: 240px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* line 360, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#media article #clip {
+  display: inline-block;
+}
+
+/*----------------------------------------*/
+/*                CONTACT                 */
+/*----------------------------------------*/
+/* line 370, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#contact {
+  background-color: black;
+  position: relative;
+  height: auto;
+  padding-bottom: 200px;
+  margin-bottom: 0px;
+}
+/* line 378, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#contact article h1, section#contact article h6, section#contact article p, section#contact article a {
+  color: white;
+}
+/* line 382, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#contact article h6 {
+  font-size: 30px;
+}
+/* line 386, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+section#contact article .viper {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 350px;
+  right: 50px;
+  background: url("/assets/images/contact.jpg") no-repeat;
+}
+
+/* line 397, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+.thanks {
+  position: relative;
+  height: auto;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
+/* line 403, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
+.thanks p {
+  text-align: center;
+}
+
+/*----------------------------------------*/
+/*               RESPONSIVE               */
+/*----------------------------------------*/

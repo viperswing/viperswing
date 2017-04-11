@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Viperswing</title>
+    <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
+  </head>
+  <header>
+    <h1 id="logo">Viperswing</h1>
+    <nav>
+      <ul>
+        <a href="groupe" class="link"><li>Viperswing</li></a>
+        <a href="dates" class="link"><li>Concerts</li></a>
+        <a href="media" class="link"><li>Media</li></a>
+        <a href="contact" class="link"><li>Contact</li></a>
+        <a href="https://www.facebook.com/pages/VIPERSWING/218926130165" target="_blank"><li class="facebook icon"></li></a>
+        <a href="https://mx3.ch/viperswing" target="_blank"><li class="mx3 icon"></li></a>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div id="main">
+      {% include home.html %}
+    </div>
+    <script type="text/javascript" src="{{ '/assets/javascripts/bundle.js' | prepend: site.baseurl }}"></script>
+  </body>
+</html>
