@@ -1564,6 +1564,7 @@ section#dates {
   position: relative;
   height: auto;
   padding-bottom: 200px;
+  overflow: hidden;
 }
 /* line 262, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
 section#dates article h1 {
