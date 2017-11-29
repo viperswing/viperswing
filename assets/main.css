@@ -1094,7 +1094,7 @@ hr {
 
 /* line 79, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-  background-image: url("/viperswing/assets/images/fancybox_sprite.png");
+  background-image: url("/assets/images/fancybox_sprite.png");
 }
 
 /* line 83, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
@@ -1114,7 +1114,7 @@ hr {
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url("/viperswing/assets/images/fancybox_loading.gif") center center no-repeat;
+  background: url("/assets/images/fancybox_loading.gif") center center no-repeat;
 }
 
 /* line 101, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
@@ -1217,7 +1217,7 @@ hr {
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url("/viperswing/assets/images/fancybox_overlay.png");
+  background: url("/assets/images/fancybox_overlay.png");
 }
 
 /* line 191, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
@@ -1303,14 +1303,14 @@ hr {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 266, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
   #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-    background-image: url("/viperswing/assets/images/fancybox_sprite@2x.png");
+    background-image: url("/assets/images/fancybox_sprite@2x.png");
     background-size: 44px 152px;
     /*The size of the normal image, half the size of the hi-res image*/
   }
 
   /* line 271, /Users/ludovicturmel/Dropbox/dev/viperswing/website/vendor/assets/stylesheets/fancybox.css */
   #fancybox-loading div {
-    background-image: url("/viperswing/assets/images/fancybox_loading@2x.gif");
+    background-image: url("/assets/images/fancybox_loading@2x.gif");
     background-size: 24px 24px;
     /*The size of the normal image, half the size of the hi-res image*/
   }
@@ -1422,12 +1422,12 @@ header nav .icon {
 }
 /* line 112, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
 header nav .facebook {
-  background: url("/viperswing/assets/images/facebook-icon.png") no-repeat;
+  background: url("/assets/images/facebook-icon.png") no-repeat;
 }
 /* line 116, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
 header nav .mx3 {
   margin-left: 5px;
-  background: url("/viperswing/assets/images/mx3-icon.png") no-repeat;
+  background: url("/assets/images/mx3-icon.png") no-repeat;
 }
 
 /*----------------------------------------*/
@@ -1451,7 +1451,7 @@ section#home article #background-image {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  background: url("/viperswing/assets/images/background-home.jpg") no-repeat bottom fixed;
+  background: url("/assets/images/background-home.jpg") no-repeat bottom fixed;
 }
 /* line 147, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
 section#home article .logo-home {
@@ -1462,7 +1462,7 @@ section#home article .logo-home {
   bottom: 220px;
   left: 50%;
   margin-left: -330px;
-  background: url("/viperswing/assets/images/viperswing-logo.png") no-repeat;
+  background: url("/assets/images/viperswing-logo.png") no-repeat;
 }
 
 /*----------------------------------------*/
@@ -1612,7 +1612,7 @@ section#dates article .instru {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  background: url("/viperswing/assets/images/instru-grey.png") no-repeat;
+  background: url("/assets/images/instru-grey.png") no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
@@ -1703,7 +1703,7 @@ section#contact article .viper {
   position: absolute;
   top: 350px;
   right: 50px;
-  background: url("/viperswing/assets/images/contact.jpg") no-repeat;
+  background: url("/assets/images/contact.jpg") no-repeat;
 }
 
 /* line 397, /Users/ludovicturmel/Dropbox/dev/viperswing/website/content/assets/stylesheets/application.css.scss */
