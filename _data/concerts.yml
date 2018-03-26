@@ -1,16 +1,6 @@
 ---
-- date-hours: test1
-  place-link: test1
-  place: test1
-  description: test1
-  visible: true
 - date-hours: DO NOT DELETE
   place-link: DO NOT DELETE
   place: DO NOT DELETE
   description: DO NOT DELETE
   visible: false
-- date-hours: test
-  place-link: test
-  place: test
-  description: test
-  visible: true
