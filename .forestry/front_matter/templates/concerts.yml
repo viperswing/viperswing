@@ -1,0 +1,22 @@
+concerts.yml
+---
+pages:
+- home.html
+hide_body: false
+fields:
+- name: datetime
+  default: ''
+  label: Date
+  hidden: false
+  type: datetime
+- name: place
+  default: ''
+  label: Place
+  hidden: false
+  type: text
+- name: description
+  default: ''
+  label: Description
+  hidden: false
+  type: textarea
+---
