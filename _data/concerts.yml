@@ -1,6 +1,11 @@
 ---
-date-hours: ''
-place-link: ''
-place: ''
-description: ''
----
+- date-hours: 'DO NOT DELETE'
+  place-link: 'DO NOT DELETE'
+  place: 'DO NOT DELETE'
+  description: 'DO NOT DELETE'
+  visible: false
+- date-hours: 'test'
+  place-link: 'test'
+  place: 'test'
+  description: 'test'
+  visible: true

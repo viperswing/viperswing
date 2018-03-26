@@ -76,13 +76,15 @@
 <section id="dates">
   <article>
     <h1 style="z-index:1000;position:relative;">Concerts</h1>
-      {% if site.date.concerts %}
+      {% if site.data.concerts %}
         {% for concert in site.data.concerts %}
-          <div class="date">
-            <h2>{{ concert.date-hours }}</h2>
-            <h2 class="place"><a href="{{ concert.place-link }}" target="_blank">{{ concert.place }}</a></h2>
-            <p>{{ concert.description }}</p>
-          </div>
+          {% if concert.visible %}
+            <div class="date">
+              <h2>{{ concert.date-hours }}</h2>
+              <h2 class="place"><a href="{{ concert.place-link }}" target="_blank">{{ concert.place }}</a></h2>
+              <p>{{ concert.description }}</p>
+            </div>
+          {% endif %}
         {% endfor %}
       {% else %}
         <div style="z-index:1000;position:relative;">
