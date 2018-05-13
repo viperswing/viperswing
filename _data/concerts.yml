@@ -3,19 +3,6 @@
   place-link: ''
   place: Brasserie du Père Jakob Chemin des Effeuilles 84 1286 Soral (Genève)
   description: Viperswing 4tet
-  visible: false
-- date-hours: 28.04 2018  19h-23h
-  place-link: |2-
-
-    Rue du Château 4
-    1870 Monthey
-  place: Pop Art Café Monthey
-  description: Viperswing trio
-  visible: true
-- date-hours: 6.04.2018 / 19h00-23h00
-  place-link: https://www.google.ch/maps/place/The+Lacustre/@46.5048468,6.6252481,17z/data=!3m1!4b1!4m5!3m4!1s0x478c2fc4db5fa211:0xd04725c435519e7f!8m2!3d46.5048468!4d6.6274368
-  place: Lacustre bar Ouchy
-  description: VIPERSWING invite Zoltán Kisák
   visible: true
 - date-hours: DO NOT DELETE
   place-link: DO NOT DELETE
